@@ -4,6 +4,7 @@ class Street:
         self.stop = int(raw_values[1])
         self.name = raw_values[2]
         self.length = int(raw_values[3])
+        self.passes = 0
 
 
 class Cars:
